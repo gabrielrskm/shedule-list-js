@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  flex: 1 1 auto;
+  z-index: 2;
+  background-color: white;
+}
+header h1 {
+  display: block;
+  text-align: center;
+  text-shadow: -4px -4px 6px rgba(86, 241, 241, 0.719);
+}
+header app-menu {
+  width: 100%;
+  max-width: 800px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  row-gap: 0.5rem;
+}
+
+aside {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 250px;
+  display: flex;
+  width: 300px;
+}/*# sourceMappingURL=styles.css.map */

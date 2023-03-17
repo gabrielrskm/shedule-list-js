@@ -1,0 +1,16 @@
+.day {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 3px solid rgb(67, 204, 3);
+  border-radius: 0.3rem;
+  background: linear-gradient(to top right, #66ffcc 4%, #ffffff 76%);
+  flex: 0 0 auto;
+  width: 5rem;
+  height: 5rem;
+}
+
+.day:hover{
+  cursor: pointer;
+}

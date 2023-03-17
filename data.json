@@ -1,0 +1,45 @@
+{
+  "turnos": {
+    "1": {
+      "fecha": "05/03/2023",
+      "hora_inicio": "08:00",
+      "hora_fin": "10:00",
+      "vacantes_disponibles": "5",
+      "usuarios": {
+        "usuario_id_1": true,
+        "usuario_id_2": true
+      }
+    },
+    "2": {
+      "fecha": "05/03/2023",
+      "hora_inicio": "09:00",
+      "hora_fin": "10:00",
+      "vacantes_disponibles": "2",
+      "usuarios": {
+        "usuario_id_3": true
+      }
+    }
+  },
+  "usuarios": {
+    "gabriel": {
+      "nombre": "gabriel",
+      "rol": "root"
+    },
+    "usuario1": {
+      "nombre": "usuario1",
+      "rol": "usuario"
+    },
+    "usuario2": {
+      "nombre": "usuario2",
+      "rol": "usuario"
+    },
+    "usuario3": {
+      "nombre": "usuario1",
+      "rol": "usuario"
+    },
+    "usuario4": {
+      "nombre": "usuario2",
+      "rol": "usuario"
+    }
+  }
+}

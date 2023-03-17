@@ -1,0 +1,22 @@
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: 2px solid ;
+  background: linear-gradient(to top right, #66ffcc 4%, #ffffff 76%);
+  border-radius: 8px;
+  column-gap: 1rem;
+  max-width: 600px;
+}
+select {
+  flex: 1 1 auto;
+}
+img {
+  padding: 2px 2px 2px 2px;
+  width: 25%;
+  z-index: 2;
+}
+
+        
